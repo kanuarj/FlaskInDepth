@@ -1,1 +1,28 @@
+<html>
+
+<head></head>
+
+<body>
+<!--- IF ELSE STATEMENTS ->
+<!-
+  {% if l == 'python'%}
+     <h1>Hi {{q[0]}}</h1>
+  {% elif l == 'java' %}
+     <h1>Hi {{q[1]}}, You are authorized</h1>
+  {% elif l == 'javascript' %}
+     <h1> hi {{q[2]}}</h1>
+  {% else %}
+     <h1>You are not authorized to enter</h1>
+  {% endif %}
+->
+<!- FOR LOOP ->
+  {% for k in q %}
+    <!-<h1>This is {{q[0]}}</h1>->
+    <h1>This is {{k}}</h1>
+
+  {% endfor %}
+
+</body>
+
+</html>
 
